@@ -75,4 +75,5 @@ graal {
     mainClass 'com.github.marschwar.kotlinParser.MainKt'
     outputName 'kotlin-parser'
     option '--verbose'
+    option '-H:+ReportExceptionStackTraces'
 }
