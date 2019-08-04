@@ -73,5 +73,6 @@ shadowJar {
 
 graal {
     mainClass 'com.github.marschwar.kotlinParser.MainKt'
-    outputName 'parser'
+    outputName 'kotlin-parser'
+    option '--verbose'
 }
