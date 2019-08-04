@@ -57,7 +57,8 @@ jar {
     }
 }
 
-tasks.build.dependsOn tasks.shadowJar
+build.dependsOn(shadowJar)
+compileKotlin.dependsOn(generateGrammarSource)
 
 shadowJar {
     dependencies {
